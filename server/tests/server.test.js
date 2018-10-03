@@ -46,8 +46,6 @@ describe('POST/todos', () => {
 					expect(todos.length).toBe(0);
 					done();
 				}).catch((err) => done(err));
-			})
-
-	})
-})
-
+			});
+	});
+});
